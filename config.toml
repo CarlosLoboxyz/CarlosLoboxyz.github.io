@@ -1,6 +1,6 @@
 baseURL = "https://carlosloboxyz.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Carlos Lobo's Blog"
 theme = "clblog"
 
 [menu]

@@ -1,0 +1,3 @@
+[submodule "themes/CLBlog"]
+	path = themes/CLBlog
+	url = git@github.com:CarlosLoboxyz/CLBlog.git

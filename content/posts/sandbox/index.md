@@ -2,10 +2,8 @@
 title: "Sandbox"
 date: 2022-07-23T09:01:02-04:00
 tags: ['sandbox', 'test']
-<!-- math: true -->
+math: true
 ---
-
-<!-- ![sandbox](cover.jpg) -->
 
 Here you're gonna find snippets of code that allow me to practice how my markdown is going to be seen by you after being rendered by hugo
 
@@ -41,7 +39,7 @@ Inline code: `$ curl https://gnu.org`
 
 a table:
 
-WP|WP2|WP3|
+WP1|WP2|WP3|
 ---|---|---|
 test1|test2|test3
 

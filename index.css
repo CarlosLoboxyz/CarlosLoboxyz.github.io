@@ -21,9 +21,11 @@ body {
   background-color: var(--bg);
   font-size: 125%;
   line-height: 1.5;
-  max-width: 45rem;
-  padding: 1rem;
   margin: 0 auto; }
+
+main, nav, footer {
+  max-width: 45rem;
+  margin: auto; }
 
 a {
   color: var(--link);
@@ -36,21 +38,52 @@ a {
 h1, h2, h3, h4, h5, h6 {
   color: var(--fg); }
 
-.site-nav {
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 40px 0; }
+
+table, td, th {
+  border: 1px solid var(--fg);
+  padding: 10px; }
+
+th {
+  color: var(--fg); }
+
+.cover {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.site-header nav {
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+nav {
   display: flex;
-  justify-content: space-between; }
-  .site-nav a {
+  justify-content: space-between;
+  padding-top: 1rem; }
+  nav a {
     text-decoration: none;
     display: block;
     padding: 1rem; }
-  .site-nav .logo {
+  nav .logo {
     font-weight: bold;
     padding-left: 0; }
-  .site-nav .main-menu {
+  nav .main-menu {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0; }
+
+.taglist {
+  display: block;
+  margin-bottom: 20px; }
+  .taglist a {
+    text-decoration: none; }
 
 .content {
   margin-bottom: 2rem; }

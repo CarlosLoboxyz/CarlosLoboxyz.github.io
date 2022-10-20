@@ -2,19 +2,23 @@
   --bg: #fefefe;
   --fg: #444;
   --link: #0645ad;
-  --link_v: #0b0080;
-  --link_h: #06e;
-  --bg_grey: #eee;
-  --dark_grey: #999; }
+  --link-v: #0b0080;
+  --link-h: #06e;
+  --bg-grey: #eee;
+  --dark-grey: #999;
+  --theme-toggle-btn: black;
+  --ttb-rotation: rotate(0deg); }
 
 [data-theme="dark"] {
   --bg: #222;
   --fg: #fefefe;
   --link: #4d7dcb;
-  --link_v: #99a5d3;
-  --link_h: #4c7ecf;
-  --bg_grey: #333;
-  --dark_grey: #333; }
+  --link-v: #99a5d3;
+  --link-h: #4c7ecf;
+  --bg-grey: #333;
+  --dark-grey: #333;
+  --theme-toggle-btn: white;
+  --ttb-rotation: rotate(180deg); }
 
 body {
   color: var(--fg);
@@ -31,9 +35,9 @@ a {
   color: var(--link);
   cursor: pointer; }
   a:visited {
-    color: var(--link_v); }
+    color: var(--link-v); }
   a:hover, a:active {
-    color: var(--link_h); }
+    color: var(--link-h); }
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--fg); }
@@ -56,11 +60,6 @@ th {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-
-.site-header nav {
-  position: absolute;
-  left: 0;
-  right: 0; }
 
 nav {
   display: flex;
@@ -129,3 +128,10 @@ nav {
 
 .code-block {
   margin-top: 15px; }
+
+.theme-toggle-btn svg {
+  width: 24px;
+  vertical-align: sub;
+  fill: var(--theme-toggle-btn);
+  transform: var(--ttb-rotation);
+  transform-origin: 50% 50%; }

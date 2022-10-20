@@ -1,5 +1,7 @@
 // Get the theme toggle input
-const currentTheme = localStorage.getItem("theme");// If the current local storage item can be found
+
+// If the current local storage item can be found
+const currentTheme = localStorage.getItem("theme");
 
 // Function that will switch the theme based on the if the theme toggle is checked or not
 function switchTheme() {
@@ -18,7 +20,8 @@ function switchTheme() {
 // Get the current theme from local storage
 if (currentTheme) {
   // Set the body data-theme attribute to match the local storage item
-  document.documentElement.setAttribute("data-theme", currentTheme);// If the current theme is dark, check the theme toggle
+  // If the current theme is dark, check the theme toggle
+  document.documentElement.setAttribute("data-theme", currentTheme);
   if (currentTheme === "dark") {
     themeToggle.click();
   }

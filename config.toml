@@ -3,17 +3,24 @@ languageCode = "en-us"
 title = "Carlos Lobo's Blog"
 theme = "clblog"
 
+summaryLength = 30
+
 [menu]
-	[[menu.main]]
-		identifier = "About"
-		name = "About"
-		url = "/about"
-		weight = 200
 	[[menu.main]]
 		identifier = "Posts"
 		name = "Posts"
 		url = "/posts"
 		weight = 100
+	[[menu.main]]
+		identifier = "Github"
+		name = "Github"
+		url = "https://github.com/carlosloboxyz"
+		weight = 200
+	[[menu.main]]
+		identifier = "Contact"
+		name = "Contact"
+		url = "/posts"
+		weight = 300
 
 [markup]
 	[markup.highlight]

@@ -21,7 +21,8 @@
 body {
   color: var(--fg);
   background-color: var(--bg);
-  font-size: 125%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
   line-height: 1.5;
   margin: auto; }
 
@@ -87,7 +88,8 @@ nav {
     padding: 0; }
     nav .main-menu li {
       display: inline-block;
-      padding: 15px; }
+      padding: 15px;
+      list-style: none; }
   nav.simple a {
     color: var(--fg); }
   nav.hero a {
@@ -180,3 +182,36 @@ nav {
     .post-header.hero h1, .post-header.hero a, .post-header.hero .post-metadata {
       color: #fefefe;
       text-decoration: none; }
+
+footer {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 16px; }
+  footer a {
+    text-decoration: none; }
+
+.posts-list {
+  list-style: none; }
+  .posts-list * a {
+    text-decoration: none; }
+  .posts-list .post-card {
+    display: flex;
+    align-items: stretch;
+    line-height: 50px;
+    margin-bottom: 30px;
+    border: dashed 2px var(--fg);
+    border-radius: 3px; }
+    .posts-list .post-card .post-body {
+      background: var(--bg);
+      text-align: justify;
+      padding: 15px;
+      margin: auto;
+      line-height: 22px;
+      list-style: none;
+      display: flex;
+      flex-direction: column; }
+      .posts-list .post-card .post-body .post-meta {
+        line-height: 22px;
+        padding-bottom: 10px; }
+        .posts-list .post-card .post-body .post-meta h3 {
+          margin: auto; }

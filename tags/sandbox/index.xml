@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sandbox on Carlos Lobo's Blog</title><link>https://carloslobo.xyz/tags/sandbox/</link><description>Recent content in sandbox on Carlos Lobo's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Jul 2022 09:01:02 -0400</lastBuildDate><atom:link href="https://carloslobo.xyz/tags/sandbox/index.xml" rel="self" type="application/rss+xml"/><item><title>Sandbox</title><link>https://carloslobo.xyz/posts/sandbox/</link><pubDate>Sat, 23 Jul 2022 09:01:02 -0400</pubDate><guid>https://carloslobo.xyz/posts/sandbox/</guid><description>Here you&amp;rsquo;re gonna find snippets of code that allow me to practice how my markdown is going to be seen by you after being rendered by hugo
 Bold text
-Italic text
-Hugo is great
-Some fancy features Inline code: $ curl https://gnu.org
-Copy 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;{{ .Site.Language }}&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;{{ if not .</description></item></channel></rss>
+Italic text</description></item></channel></rss>
